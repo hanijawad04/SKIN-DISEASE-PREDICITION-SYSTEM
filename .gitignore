@@ -1,0 +1,79 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.out
+*.err
+*.tmp
+*.bak
+*.swp
+
+# Data, models, and notebooks
+data/
+datasets/
+input/
+files/
+models/
+notebooks/
+output/
+results/
+samples/
+static/
+test/
+
+# Large files
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.ckpt
+*.pb
+*.joblib
+*.pkl
+*.sav
+
+# Images and outputs
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+
+# Utility scripts (if not required in repo)
+visualize_data.py
+unzip.py
